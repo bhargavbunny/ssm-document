@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "description": "Upgrade packages managed by apt",
+  "runtimeConfig": {
+    "aws:runShellScript": {
+      "properties": [
+        {
+          "iptables -L"
+        }
+      ]
+    }
+  }
+}
